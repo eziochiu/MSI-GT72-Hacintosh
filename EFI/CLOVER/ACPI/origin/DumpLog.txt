@@ -1,0 +1,137 @@
+36:938  23:385  Found BIOS RSDP at F0000
+36:938  0:000  Printing ACPI tables from RSDP F0000 ...
+36:938  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+36:938  0:000    (Xsdt: DB97A090, Rsdt: DB97A028)
+36:938  0:000    DB97A090: 'XSDT', 'MEGABOOK', Rev: 1, Len: 156
+36:938  0:000    DB97A028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 96
+36:938  0:000    Tables in Xsdt: 15
+36:938  0:000    0. DB987650: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+36:938  0:000        (Dsdt: DB97A1C0, Facs: DB9A9F80, XDsdt: DB97A1C0, XFacs: 0)
+36:938  0:000        DB97A1C0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 54412
+36:940  0:001        DB9A9F80: 'FACS', Ver: 2, Len: 64
+36:940  0:000    1. DB987760: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+36:940  0:000    2. DB9877F8: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+36:940  0:000    3. DB987840: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+36:940  0:000    4. DB9878E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+36:940  0:000    5. DB987B08: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+36:940  0:000    6. DB987C80: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+36:940  0:000    7. DB9881C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+36:940  0:000    8. DB988C98: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+36:940  0:000    9. DB988CD8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+36:940  0:000    10. DB988D10: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+36:940  0:000    11. DB989028: 'SSDT', 'SaSsdt ', Rev: 1, Len: 21097
+36:940  0:000    12. DB98E298: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+36:940  0:000    13. DB98E2C8: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+36:940  0:000    14. DB98E300: 'DMAR', 'HSW ', Rev: 1, Len: 184
+36:940  0:000    Tables in Rsdt: 15
+36:940  0:000    0. DB97A138: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+36:940  0:000        (Dsdt: DB97A1C0, Facs: DB9A9F40)
+36:940  0:000        DB97A1C0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 54412
+36:941  0:001        DB9A9F40: 'FACS', Ver: 0, Len: 64
+36:941  0:000    1. DB987760: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+36:941  0:000    2. DB9877F8: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+36:941  0:000    3. DB987840: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+36:941  0:000    4. DB9878E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+36:941  0:000    5. DB987B08: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+36:941  0:000    6. DB987C80: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+36:941  0:000    7. DB9881C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+36:941  0:000    8. DB988C98: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+36:941  0:000    9. DB988CD8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+36:941  0:000    10. DB988D10: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+36:941  0:000    11. DB989028: 'SSDT', 'SaSsdt ', Rev: 1, Len: 21097
+36:941  0:000    12. DB98E298: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+36:941  0:000    13. DB98E2C8: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+36:941  0:000    14. DB98E300: 'DMAR', 'HSW ', Rev: 1, Len: 184
+36:941  0:000  Found UEFI Acpi 2.0 RSDP at DB97A000
+36:941  0:000  Saving ACPI tables from RSDP DB97A000 to EFI\CLOVER\ACPI\origin ...
+36:941  0:000   DB97A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+37:409  0:468    (Xsdt: DB97A090, Rsdt: DB97A028)
+37:409  0:000    DB97A090: 'XSDT', 'MEGABOOK', Rev: 1, Len: 156 -> XSDT.aml
+37:435  0:026    DB97A028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 96 -> RSDT.aml
+37:456  0:020    Tables in Xsdt: 15
+37:456  0:000    0. DB987650: 'FACP', 'MEGABOOK', Rev: 5, Len: 268 -> FACP.aml
+37:481  0:025        (Dsdt: DB97A1C0, Facs: DB9A9F80, XDsdt: DB97A1C0, XFacs: 0)
+37:481  0:000        DB97A1C0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 54412 -> DSDT.aml
+37:508  0:026        DB9A9F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+37:533  0:024    1. DB987760: 'APIC', 'MEGABOOK', Rev: 3, Len: 146 -> APIC.aml
+37:558  0:025    2. DB9877F8: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68 -> FPDT.aml
+37:579  0:020    3. DB987840: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156 -> FIDT.aml
+37:605  0:025    4. DB9878E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552 -> SSDT-0.aml
+37:630  0:025    5. DB987B08: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374 -> SLIC.aml
+37:655  0:025    6. DB987C80: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-1.aml
+37:676  0:021    7. DB9881C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+37:676  0:000        * D9F6AA98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00       * DB450618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-3x.aml
+37:702  0:025        * DB450C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-4x.aml
+37:727  0:025        * DB44FD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x.aml
+37:753  0:025   -> SSDT-2.aml
+37:775  0:021    8. DB988C98: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60 -> MCFG.aml
+37:801  0:025    9. DB988CD8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56 -> HPET.aml
+37:826  0:025    10. DB988D10: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-6.aml
+37:851  0:025    11. DB989028: 'SSDT', 'SaSsdt ', Rev: 1, Len: 21097 -> SSDT-7.aml
+37:877  0:025    12. DB98E298: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41 -> MSFF.aml
+37:898  0:020    13. DB98E2C8: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56 -> BGRT.aml
+37:924  0:025    14. DB98E300: 'DMAR', 'HSW ', Rev: 1, Len: 184 -> DMAR.aml
+37:949  0:024    Tables in Rsdt: 15
+37:949  0:000    0. DB97A138: 'FACP', 'MEGABOOK', Rev: 2, Len: 132 -> RSDT-FACP.aml
+37:974  0:025        (Dsdt: DB97A1C0, Facs: DB9A9F40)
+37:974  0:000        DB97A1C0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 54412
+37:975  0:001        DB9A9F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+37:997  0:021    1. DB987760: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+37:997  0:000    2. DB9877F8: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+37:997  0:000    3. DB987840: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+37:997  0:000    4. DB9878E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+37:997  0:000    5. DB987B08: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+37:997  0:000    6. DB987C80: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+37:997  0:000    7. DB9881C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+37:997  0:000    8. DB988C98: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+37:997  0:000    9. DB988CD8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+37:997  0:000    10. DB988D10: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+37:997  0:000    11. DB989028: 'SSDT', 'SaSsdt ', Rev: 1, Len: 21097
+37:997  0:000    12. DB98E298: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+37:997  0:000    13. DB98E2C8: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+37:997  0:000    14. DB98E300: 'DMAR', 'HSW ', Rev: 1, Len: 184
+37:997  0:000  Found UEFI Acpi 1.0 RSDP at DB97A000
+37:997  0:000  Printing ACPI tables from RSDP DB97A000 ...
+37:997  0:000   DB97A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+37:997  0:000    (Xsdt: DB97A090, Rsdt: DB97A028)
+37:997  0:000    DB97A090: 'XSDT', 'MEGABOOK', Rev: 1, Len: 156
+37:997  0:000    DB97A028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 96
+37:997  0:000    Tables in Xsdt: 15
+37:997  0:000    0. DB987650: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+37:997  0:000        (Dsdt: DB97A1C0, Facs: DB9A9F80, XDsdt: DB97A1C0, XFacs: 0)
+37:997  0:000        DB97A1C0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 54412
+37:998  0:001        DB9A9F80: 'FACS', Ver: 2, Len: 64
+37:998  0:000    1. DB987760: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+37:998  0:000    2. DB9877F8: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+37:998  0:000    3. DB987840: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+37:998  0:000    4. DB9878E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+37:998  0:000    5. DB987B08: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+37:998  0:000    6. DB987C80: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+37:998  0:000    7. DB9881C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+37:998  0:000    8. DB988C98: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+37:998  0:000    9. DB988CD8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+37:998  0:000    10. DB988D10: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+37:998  0:000    11. DB989028: 'SSDT', 'SaSsdt ', Rev: 1, Len: 21097
+37:998  0:000    12. DB98E298: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+37:998  0:000    13. DB98E2C8: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+37:998  0:000    14. DB98E300: 'DMAR', 'HSW ', Rev: 1, Len: 184
+37:998  0:000    Tables in Rsdt: 15
+37:998  0:000    0. DB97A138: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+37:998  0:000        (Dsdt: DB97A1C0, Facs: DB9A9F40)
+37:998  0:000        DB97A1C0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 54412
+37:999  0:001        DB9A9F40: 'FACS', Ver: 0, Len: 64
+37:999  0:000    1. DB987760: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+37:999  0:000    2. DB9877F8: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+37:999  0:000    3. DB987840: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+37:999  0:000    4. DB9878E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+37:999  0:000    5. DB987B08: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+37:999  0:000    6. DB987C80: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+37:999  0:000    7. DB9881C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+37:999  0:000    8. DB988C98: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+37:999  0:000    9. DB988CD8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+37:999  0:000    10. DB988D10: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+37:999  0:000    11. DB989028: 'SSDT', 'SaSsdt ', Rev: 1, Len: 21097
+37:999  0:000    12. DB98E298: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+37:999  0:000    13. DB98E2C8: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+37:999  0:000    14. DB98E300: 'DMAR', 'HSW ', Rev: 1, Len: 184
